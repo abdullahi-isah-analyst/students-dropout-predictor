@@ -31,11 +31,13 @@ Identifying at-risk students early helps schools and education programs offer su
 **Interpretation:** The model correctly identifies 66% of students at risk of dropping out. When it flags a student, it is right 86% of the time.
 
 ## Top Predictive Features
-1. Tuition fees up to date (financial stability)
-2. Scholarship holder (financial support)
-3. Curricular units approved, 1st semester (academic performance)
+1. Curricular units approved, 1st semester (early academic performance)
+2. Curricular units grade, 1st semester (early academic performance)
+3. Tuition fees up to date (financial stability)
 4. Age at enrollment (older students are more at risk)
-5. Debtor status (financial stress)
+5. Curricular units evaluated, 1st semester (academic engagement)
+
+![Feature importance](feature_importance.png)
 
 ## Ethical Safeguards
 - **Human-in-the-loop:** model output only informs counselor conversations.
